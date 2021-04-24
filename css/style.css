@@ -231,6 +231,9 @@ img {
     padding-bottom: 10px;
     text-align: center;
 }
+.about-us-list-item .about-us-list-item-title {
+    margin-bottom: 50px;
+}
 .about-us-list-item-link-text {    
     font-size: 16px;
     line-height: 1.187;
@@ -281,6 +284,27 @@ img {
 }
 
     /* ======END SECTION ABOUT-US====== */
+
+    /* ======SECTION OUR CLIENTS====== */
+.our-client-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+
+}
+.our-client-item {
+    display: flex;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    
+    
+}
+
+    /* ======SECTION OUR CLIENTS====== */
 /* ======END MAIN====== */
 
 /* ======FOOTER====== */
