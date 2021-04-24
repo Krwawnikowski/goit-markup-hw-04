@@ -203,6 +203,15 @@ img {
     display: flex;
     justify-content: space-between;
 }
+.adventeges-list-icon-background {
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: var(--fourth-color);
+    padding: 25px 0px;
+}
+
+
     /* ======END SECTION ADVENTEGES====== */
     /* ======SECTION ABOUT-US====== */
 .about-us {
