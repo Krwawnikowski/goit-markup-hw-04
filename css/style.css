@@ -271,15 +271,13 @@ img {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    fill: #AFB1B8;
 }
 .about-us-social-link-list:hover,
 .about-us-social-link-list:focus {
     color: var(--fifth-color);
     background-color: var(--main-color);
-    
-}
-.section-about-us .icon-our-team {
-    fill: currentColor;
+    fill: var(--fifth-color);    
 }
 
     /* ======END SECTION ABOUT-US====== */
