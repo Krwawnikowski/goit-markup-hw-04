@@ -274,10 +274,13 @@ img {
 }
 .about-us-social-link-list:hover,
 .about-us-social-link-list:focus {
-    fill: var(--fifth-color);
+    color: var(--fifth-color);
     background-color: var(--main-color);
+    
 }
-
+.section-about-us .icon-our-team {
+    fill: currentColor;
+}
 
     /* ======END SECTION ABOUT-US====== */
 /* ======END MAIN====== */
