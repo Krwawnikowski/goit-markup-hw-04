@@ -91,6 +91,7 @@ img {
     color: var(--secondary-color);
     text-decoration: none;
 }
+
 .navigation-list-item .current {
     color:var(--main-color);
 }
@@ -172,7 +173,6 @@ img {
     display: flex;
     flex-direction: column; 
 }
-
     /* ======END SECTION HERO====== */
     /* ======SECTION ADVENTEGES====== */
 .adventeges-list-item-title {
@@ -216,7 +216,6 @@ img {
     padding: 25px 0px;
 }
 
-
     /* ======END SECTION ADVENTEGES====== */
     /* ======SECTION ABOUT-US====== */
 .about-us {
@@ -235,9 +234,6 @@ img {
     padding-top: 30px;
     padding-bottom: 10px;
     text-align: center;
-}
-.about-us-list-item .about-us-list-item-title {
-    margin-bottom: 50px;
 }
 .about-us-list-item-link-text {    
     font-size: 16px;
@@ -363,14 +359,11 @@ img {
 }
 .footer-social-link {
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;  
 }
 .footer-social {
     display: flex;
-    border-radius: 50%;
-    
+    border-radius: 50%;   
 }
 .footer-social-link-list
 {   display: flex;
@@ -383,7 +376,6 @@ img {
     color: var(--fifth-color);
     background-color: rgba(255, 255, 255, 0.1);
     margin-right: 10px;
-    
     
 }
 .join-us {
