@@ -251,6 +251,7 @@ img {
 
 .section-about-us {
     background-color: var(--fourth-color);
+    padding-bottom: 94px;
 }
 .about-us-list-item {
     background-color: var(--fifth-color);
@@ -449,6 +450,7 @@ img {
 }
 .portfolio-hero-list-item .portfolio-hero-list-btn {
     margin-left: 8px;
+    border: 0px;
   }
 .portfolio-hero-list:first-child {
     margin-left: 0;
