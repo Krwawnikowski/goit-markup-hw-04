@@ -17,7 +17,7 @@
                 <li class="navigation-list-item-logo list">
                     <a class="navigation-list-link-logo link" href="index.html"><span class="logo-span">Web</span>Studio</a></li>
                 <li class="navigation-list-item list">
-                    <a class="navigation-list-link link" href="#" list>Agencja</a></li>
+                    <a class="navigation-list-link link current" href="index.html" list>Agencja</a></li>
                 <li class="navigation-list-item list">
                     <a class="navigation-list-link link" href="portfolio.html">Portfolio</a></li>
                 <li class="navigation-list-item list">
@@ -42,7 +42,7 @@
         <section class="hero">
             <div class="container">
             <h1 class="hero-h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU </h1>
-            <button class="hero-btn" type="button">Zamów usługe</button>
+            <button class="hero-btn" type="button" data-modal-open>Zamów usługe</button>
             </div>
         </section>
 
@@ -339,5 +339,18 @@
         </div>
     </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close>
+                <svg class="modal-close-btn">
+                    <use href="images/icons.svg#icon-Vector" heigt="11px" width="11px"></use>
+                </svg>
+
+            </button>
+        </div>
+
+    </div>
+
+    <script src="modal.js"></script> 
 </body>
 </html>
